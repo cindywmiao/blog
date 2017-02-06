@@ -21,8 +21,8 @@ function Timeline(cvs) {
         [29, 33, 38]
     ];
     self.dotColors = [
-        ['#13669b', 'rgba(19, 102, 155, 0.3)', 'rgba(19, 102, 155, 0.08)'],
-        ['#7dd317', 'rgba(113, 222, 15, 0.3)', 'rgba(91, 164, 22, 0.12)'],
+        ['#ff6666', 'rgba(100, 40, 40, 0.01)', 'rgba(100, 40, 40, 0.15)'],
+        ['#ff6666', 'rgba(100, 40, 40, 0.01)', 'rgba(100, 40, 40, 0.15)'],
     ];
 
     self.isPaused = function () {
@@ -72,8 +72,8 @@ function Timeline(cvs) {
         try {
             result = !!(canvas.getContext && (ctx = canvas.getContext('2d')));
 
-            self.lines[0] = new Line(0, canvas.offsetHeight - 100, '#4789a3', self.options, mouse);
-            self.lines[1] = new Line(0, canvas.offsetHeight - 100, '#a0d59c', self.options, mouse);
+            self.lines[0] = new Line(0, canvas.offsetHeight - 100, '#ff6666', self.options, mouse);
+            self.lines[1] = new Line(0, canvas.offsetHeight - 100, '#ff6666', self.options, mouse);
 
         } catch (e) {
             return false;
