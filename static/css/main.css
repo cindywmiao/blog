@@ -2246,6 +2246,7 @@ ul.activity-list > li .timestamp {
 }
 
 ul.activity-timeline > li {
+  margin-top: 50px;
   margin-bottom: 45px;
   position: relative;
   z-index: 0;

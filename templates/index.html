@@ -3,8 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/vendor/icon-sets.css">
+    <link rel="stylesheet" href="../static/css/main.min.css">
+    <link rel="stylesheet" href="../static/css/timeline.css">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="76x76" href="../static/img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../static/img/favicon.png">
+
+    <!-- Javascript -->
+    <script src="../static/js/angular/angularjs.js"></script>
+    <script src="../static/js/jquery/jquery-2.1.0.js"></script>
+    <script src="../static/js/bootstrap/bootstrap.js"></script>
+    <script src="../static/js/main/main.js"></script>
 </head>
 <body>
+    <div ng-app="mainApp">
+        <div ng-controller="mainController">
+            <div id="wrapper">
+                <div class="sidebar">
+                    <div class="brand">
+                        <a href="index.html"><img src="../static/img/timeline/profit.jpeg" alt="Klorofil Logo" class="img-responsive logo"></a>
+                    </div>
+
+                    <!--<div ng-include="'page-timeline.html'"></div>-->
+
+                    <ul class="timeline">
+
+                        <!-- Item 1 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <a href="http://www.coupang-usa.com/"><span class="flag">Coupang Inc.</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Item 3 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Harvard University</span>
+                                    <!--<span class="time-wrapper"><span class="time">2008 - 2011</span></span>-->
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="main">
+
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div ng-include="'page-navbar.html'"></div>
+                    </nav>
+
+                    <div class="main-content">
+
+                        <ul class="timeline">
+
+                        <!-- Item 1 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <a href="http://www.coupang-usa.com/"><span class="flag">Coupang Inc.</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Item 3 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Harvard University</span>
+                                    <!--<span class="time-wrapper"><span class="time">2008 - 2011</span></span>-->
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                        <!--<ul class="activity-timeline">-->
+                            <!--<li>-->
+                                <!--<a href="http://www.coupang-usa.com/" class="active">-->
+                                    <!--<i class="lnr lnr-home"></i>-->
+                                    <!--<span>Coupang</span>-->
+                                <!--</a>-->
+                            <!--</li>-->
+                            <!--<li>SAP</li>-->
+                            <!--<li>Lectra</li>-->
+                            <!--<li>Enseirb-Matmeca</li>-->
+                            <!--<li>Tongji University</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
 
 </body>
 </html>
