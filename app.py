@@ -14,7 +14,9 @@ def demo():
     return render_template('demo.html')
 
 
-
+@app.route('/stars')
+def stars():
+    return render_template('stars.html')
 
 
 if __name__ == '__main__':
