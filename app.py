@@ -18,6 +18,10 @@ def demo():
 def stars():
     return render_template('stars.html')
 
+@app.route('/workflow')
+def workflow():
+    return render_template('workflow.html')
+
 
 if __name__ == '__main__':
     app.run()
