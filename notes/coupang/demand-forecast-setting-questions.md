@@ -1,5 +1,3 @@
-demand-forecast-setting-questions.md
-
 #### BUILD your local PYTHON environment 
 
 download anaconda2 from www.continuum.io/downloads 
@@ -15,7 +13,7 @@ activate environnement
 source activate py3x
 ```
 
-####USE pyinstaller to make the executable file which could be executed on Clouldera(NCDS) 
+#### USE pyinstaller to make the executable file which could be executed on Clouldera(NCDS) 
 
 install pyinstaller with no conflict version 
 ```
