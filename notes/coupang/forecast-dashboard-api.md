@@ -1,10 +1,10 @@
 Forecast Result
 
-http://local.coupang.com:8080/api/forecast/findArgs?targetDate=2017-04-14&&pageIndex=3&pageSize=20&area=seoul&skuType=NORMAL&saleStatus=ACTIVE&isAlive=Y&unitname1=Home
+http://local.coupang.com:8080/api/forecast/findArgs?targetDate=2017-04-14&pageIndex=3&pageSize=20&area=seoul&skuType=NORMAL&saleStatus=ACTIVE&isAlive=Y&unitname1=Home
 
 http://local.coupang.com:8080/api/forecast/findArgs?targetDate=2017-04-14&pageIndex=3&pageSize=20&area=seoul&skuType=NORMAL&saleStatus=ACTIVE&isAlive=Y&unitname1=null&unitname2=null
 
-http://local.coupang.com:8080/api/forecast/findArgs?targetDate=2017-04-14&pageIndex=3&pageSize=20&unitname1=Home&unitname2=Bath%20Acc.%20/%20Household%20Cleaning&cate3=1855&skuType=NORMAL&saleStatus=ACTIVE
+http://local.coupang.com:8080/api/forecast/find?targetDate=2017-05-04&pageIndex=3&pageSize=20&unitname1=Home&unitname2=Bath%20Acc.%20/%20Household%20Cleaning&cate3=1855&skuType=NORMAL&saleStatus=ACTIVE
 
 Historical Result
 
@@ -18,9 +18,11 @@ Sku Category 5 levels
 
 return unitname1
 
-http://local.coupang.com:8080/api/forecast/sku_unit?targetDate=2017-04-25
+http://local.coupang.com:8080/api/forecast/sku_unit?targetDate=2017-05-03
 
 return unitname2
+
+http://local.coupang.com:8080/api/forecast/sku_unit?targetDate=2017-05-03&unitname1=Gear
 
 http://local.coupang.com:8080/api/forecast/sku_unit?targetDate=2017-04-25&unitname1=Toys
 
